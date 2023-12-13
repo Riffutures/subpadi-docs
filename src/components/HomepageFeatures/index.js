@@ -7,7 +7,7 @@ const FeatureList = [
   {
     title: 'Quickstart',
     url: 'docs/intro',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/trend-up-fill.svg').default,
     description: (
       <>
         Follow this quick guide to get you setup to start using our api
@@ -17,7 +17,7 @@ const FeatureList = [
   {
     title: 'Authenticate',
     url: 'docs/category/authentication',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/lock-key-open-fill.svg').default,
     description: (
       <>
         Get Authenticated To Use The API Services
@@ -27,7 +27,7 @@ const FeatureList = [
   {
     title: 'Blog',
     url: 'blog',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/stack-overflow-logo-fill.svg').default,
     description: (
       <>
         Check out our blog for tutorials on api usage and integrationn
