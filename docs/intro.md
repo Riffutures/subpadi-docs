@@ -26,7 +26,7 @@ Visit **[subpadi](https://subpadi.com/signin)** to sign in
 
 ### Step 3: Copy Your Token
 
-Visit **[subpadi](https://subpadi.com/documentation)** to obtain your token
+Visit **[subpadi documentation page](https://subpadi.com/documentation)** to obtain your token
 
 
 ![Token image](/img/subpadi-doc.png)
