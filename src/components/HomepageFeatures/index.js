@@ -2,6 +2,8 @@ import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
 import Link from '@docusaurus/Link';
+import { useLocation } from 'react-router-dom';
+
 
 const FeatureList = [
   {
@@ -37,6 +39,9 @@ const FeatureList = [
 ];
 
 function Feature({Svg, title, description, url}) {
+  const location = useLocation();
+  const searchParams = new URLSearchParams(location.search);
+  const source = searchParams.get('source');
   return (
     <div className={clsx('col col--4')}>
       <Link to={url} className={styles.decorator}>
