@@ -19,13 +19,11 @@ sidebar_position: 2
 ```python
 import requests
 import json
-payload = {
-"network": 1,
-"amount" :"200",
-"mobile_number": "07062198688",
-"Ported_number":true,
-"airtime_type":"VTU"
-}
+payload = {'card_no': '1212121212',
+'amount': '500',
+'phone_number': '08033104248',
+'cable_type': 'dstv',
+'Customer': 'Ayo'}
 user_token = 'eacf1ab727d134b254361d834c28a2bf6ab0a111'
 headers = {
       "Content-Type": "application/json",
@@ -39,7 +37,7 @@ data = json.dumps(payload)
 ### Send a post request with the payload
 
 ```python
-url = "https://subpadi.com/api/topup/"
+url = "https://bigisub.com/api/cable_purchase/"
 res = requests.post(url, data=data, headers=headers)
 ```
 
@@ -47,22 +45,21 @@ res = requests.post(url, data=data, headers=headers)
 
 ```bash
 {
-    "id": 76,
-    "airtime_type": "VTU",
-    "network": 1,
-    "tran_id": "Airtime-SVKjDfker7634",
-    "paid_amount": "200.0",
-    "mobile_number": "08011111111",
-    "amount": "200",
-    "plan_amount": "N200",
-    "plan_network": "MTN",
-    "balance_before": "535585.0",
-    "balance_after": "535385.0",
+    "id": 31,
+    "card_no": "1212121212",
+    "cable_type": "dstv",
+    "tran_id": "Cablein-L4sAceea",
+    "api_id": "17036582265264227073290664",
+    "phone_number": "08033104248",
+    "amount": 500,
+    "pay_amount": null,
+    "current_bouquet": null,
     "Status": "successful",
-    "create_date": "2023-12-13T16:20:26.041472",
-    "Ported_number": true,
-    "api_response": "TRANSACTION SUCCESSFUL",
-    "ident": "20231213162024337872761638e639b6b7-814d-4d3a-9da0-dabdee3b8de9"
+    "Customer": "Ayo",
+    "date_created": "2023-12-27T07:23:46.677039",
+    "refund": false,
+    "ident": "hd1EXfzD3effc0",
+    "new_bouquett": null
 }
 ```
 

@@ -5,15 +5,16 @@ sidebar_position: 2
 # Validate Meter Number
 
 
-- `meter_number`: Meter number `int`
+- `meter_no`: Meter number `int`
 - `disco_name`: disco name `string`
-- `mtype`: Meter Type **true** `string`
+- `meter_type`: Meter Type **true** `string`
 
 ```python
 import requests
 import json
-data = {"meternumber": 	1111111111111 ,
-                    "disconame": "Ikeja Electric", "mtype": 'prepaid' }
+payload = {'meter_no': '1111111111111',
+'disco_name': 'ikeja-electric',
+'meter_type': 'prepaid'}
 user_token = 'eacf1ab727d134b254361d834c28a2bf6ab0a111'
 headers = {
       "Content-Type": "application/json",
@@ -27,7 +28,7 @@ data = json.dumps(payload)
 ### Send a post request with the payload
 
 ```python
-url = "https://www.subpadi.com/api/validatemeter"
+url = "https://www.bigisub.com/api/meter_validate"
 res = requests.post(url, data=data, headers=headers)
 ```
 
@@ -35,21 +36,10 @@ res = requests.post(url, data=data, headers=headers)
 
 ```bash
 {
-    "invalid": false,
-    "name": "David Dele",
-    "address": "87 AJIMATU OFF MURITALA STREET",
-    "content": {
-        "Customer_Name": "David Dele",
-        "Address": "87 AJIMATU OFF MURITALA STREET",
-        "Meter_Number": "43067784709",
-        "Customer_Arrears": "",
-        "Minimum_Amount": 7.49,
-        "Min_Purchase_Amount": 7.49,
-        "Can_Vend": "yes",
-        "Business_Unit": "",
-        "Meter_Type": "PREPAID",
-        "WrongBillersCode": false
-    }
+    "Customer_Name": "TESTMETER1",
+    "Meter_Number": "1111111111111",
+    "Customer_District": "007903312",
+    "Address": "ABULE - EGBA BU ABULE"
 }
 ```
 

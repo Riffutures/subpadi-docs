@@ -19,8 +19,8 @@ import requests
 import json
 payload = {
     "network": 1,
-    "mobile_number": "07062198688",
-    "plan": 6,
+    "phone_number": "07062198688",
+    "plan": 41,
     "Ported_number": true
 }
 user_token = 'eacf1ab727d134b254361d834c28a2bf6ab0a111'
@@ -36,7 +36,7 @@ data = json.dumps(payload)
 ### Send a post request with the payload
 
 ```python
-url = "https://subpadi.com/api/topup/"
+url = "https://bigisub.com/api/data_topup/"
 res = requests.post(url, data=data, headers=headers)
 ```
 

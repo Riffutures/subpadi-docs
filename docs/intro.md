@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Quick Start
 
-Let's get started with **Subpadi API**
+Let's get started with **Bigisub API**
 
 ## Getting Started
 
@@ -13,23 +13,47 @@ Get started by **Getting Your Authentication Token From**
 
 ### Step 1: Create An Account
 
-Visit **[subpadi](https://subpadi.com/signup)** to create an account
+Visit **[Bigisub](https://bigisub.ng/register/)** to create an account
 
-![Signup image](/img/signup.png)
+![Signup image](/img/signup_bigi.png)
 
 
 ### Step 2: Sign In 
 
-Visit **[subpadi](https://subpadi.com/signin)** to sign in
+Visit **[Bigisub](https://bigisub.ng/login/)** to sign in
 
-![Signin image](/img/signin.png)
+![Signin image](/img/login_bigi.png)
 
-### Step 3: Copy Your Token
-
-Visit **[subpadi documentation page](https://subpadi.com/documentation)** to obtain your token
+### Step 3: Generate Your Token
 
 
-![Token image](/img/subpadi-doc.png)
+```python
+import requests
+import json
+
+payload = {
+    "username": "ay",
+    "password": "ayo"
+}
+data = json.dumps(payload)
+```
+
+### Send a request with the payload
+
+```python
+url = "https://bigisub.com/api/get_token/"
+res = requests.get(url, data=data)
+```
+
+### Response 
+
+```python
+{
+    "token": "56227c7416dc680edd2fdc25b8c1e6fdb570c806", # Your token
+    "user_id": 10,
+    "email": "ayobab@gmail.com"
+}
+```
 
 
 ## Congratulations! 🎈🎈🎈

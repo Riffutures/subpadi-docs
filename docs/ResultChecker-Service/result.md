@@ -13,7 +13,7 @@ import requests
 import json
 payload = {
     "quantity": 1,
-    "exam_name": "NECO"
+    "exam": "NECO"
 }
 user_token = 'eacf1ab727d134b254361d834c28a2bf6ab0a111'
 headers = {
@@ -28,7 +28,7 @@ data = json.dumps(payload)
 ### Send a post request with the payload
 
 ```python
-url = "https://subpadi.com/api/topup/"
+url = "https://bigisub.com/api/exam_pin_purchase/"
 res = requests.post(url, data=data, headers=headers)
 ```
 

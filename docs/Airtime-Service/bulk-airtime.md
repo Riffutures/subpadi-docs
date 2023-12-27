@@ -21,9 +21,8 @@ import json
 payload = {
 "network": 1,
 "amount" :"200",
-"mobile_number": "07062198688, 07062568688",
-"Ported_number":true,
-"airtime_type":"VTU"
+"phone_number": "07062198688, 07062568688",
+"airtime_type":"vtu"
 }
 user_token = 'eacf1ab727d134b254361d834c28a2bf6ab0a111'
 headers = {
@@ -38,7 +37,7 @@ data = json.dumps(payload)
 ### Send a post request with the payload
 
 ```python
-url = "https://subpadi.com/api/bulk-airtime/"
+url = "https://bigisub/api/bulk-airtime/"
 res = requests.post(url, data=data, headers=headers)
 ```
 
