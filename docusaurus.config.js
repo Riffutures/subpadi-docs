@@ -9,9 +9,9 @@ import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Subpadi',
+  title: 'Bigisub',
   tagline: 'Best Sme Data Reselling App',
-  favicon: 'img/Subpadilogo-removebg-preview.png',
+  favicon: 'img/bigisub,ng.png',
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-site.example.com',
@@ -64,10 +64,10 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Subpadi',
+        title: 'Bigisub',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/Subpadilogo-removebg-preview.png',
+          src: 'img/bigisub.ng.png',
         },
         items: [
           {
@@ -78,12 +78,12 @@ const config = {
           },
           { to: '/blog', label: 'Blog', position: 'left' },
           {
-            href: 'https://subpadi.com/login',
+            href: 'https://bigisub.ng/login',
             label: 'Sign in',
             position: 'right',
           },
           {
-            href: 'https://subpadi.com/signup',
+            href: 'https://bigisub.ng/register/',
             label: 'Sign up',
             position: 'right',
           },
