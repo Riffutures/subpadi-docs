@@ -99,7 +99,7 @@ const Table = () => {
                         {plan.plan_amount}
                       </td>
                       <td className="px-6 py-4">
-                        {plan.size + ' ' + plan.volume}
+                        {plan.size + ' ' + plan.plan_volume}
                       </td>
                       <td className="px-6 py-4">
                         {plan.validity}
