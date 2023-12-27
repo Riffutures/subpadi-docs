@@ -10,16 +10,7 @@ import styles from './index.module.css';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
-  const location = useLocation();
-  const searchParams = new URLSearchParams(location.search);
-  const source = searchParams.get('source');
-  console.log(source);
-  // let title = 'Subpadi';
-  // if (source === 'github') {
-  //   title = source;
-  // }
     
-
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">

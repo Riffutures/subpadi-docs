@@ -11,7 +11,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 const config = {
   title: 'Bigisub',
   tagline: 'Best Sme Data Reselling App',
-  favicon: 'img/bigisub,ng.png',
+  favicon: 'img/bigisub.ng.png',
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-site.example.com',
