@@ -35,8 +35,14 @@ res = requests.post(url, data=data, headers=headers)
 
 ```bash
 {
-    "invalid": false,
-    "name": "NWAIKPOMW Ada"
+    "Customer_Name": "Testermetri",
+    "Status": "OPEN",
+    "Due_Date": "November 24th, 2021",
+    "Customer_Number": 26117953,
+    "Customer_Type": "DSTV",
+    "Current_Bouquet": "DStv  Compact N7900 + ExtraView Access N2,500",
+    "Current_Bouquet_Code": "dstv79, extraview-access",
+    "Renewal_Amount": 63885
 }
 ```
 

@@ -28,7 +28,7 @@ data = json.dumps(payload)
 ### Send a post request with the payload
 
 ```python
-url = "https://subpadi.com/api/topup/"
+url = "https://subpadi.com/api/cablesub/"
 res = requests.post(url, data=data, headers=headers)
 ```
 
@@ -36,9 +36,17 @@ res = requests.post(url, data=data, headers=headers)
 
 ```bash
 {
-    "error": [
-        " insufficient balance  ₦310.0 "
-    ]
+    "id": 24,
+    "exam": "NECO",
+    "quantity": "ikeja-electric",
+    "pin": "26362054405982757802",
+    "amount": 1000,
+    "pay_amount": "1050.0",
+    "tran_id": "EXAM2OYY--cf3b7",
+    "status": "successful",
+    "refund": false,
+    "date_created": "2023-12-27T07:19:07.544254",
+    "ident": "X8nI-jtA11f026"
 }
 ```
 

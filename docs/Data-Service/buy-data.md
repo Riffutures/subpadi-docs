@@ -36,7 +36,7 @@ data = json.dumps(payload)
 ### Send a post request with the payload
 
 ```python
-url = "https://subpadi.com/api/topup/"
+url = "https://subpadi.com/api/data/"
 res = requests.post(url, data=data, headers=headers)
 ```
 
