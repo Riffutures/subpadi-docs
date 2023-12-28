@@ -13,16 +13,13 @@ Get started by **Getting Your Authentication Token From**
 
 ### Step 1: Create An Account
 
-Visit **[Bigisub](https://bigisub.ng/register/)** to create an account
-
-![Signup image](/img/signup_bigi.png)
+Visit **[Bigisub](https://bigisub.com/register/)** to create an account
 
 
 ### Step 2: Sign In 
 
-Visit **[Bigisub](https://bigisub.ng/login/)** to sign in
+Visit **[Bigisub](https://bigisub.com/login/)** to sign in
 
-![Signin image](/img/login_bigi.png)
 
 ### Step 3: Generate Your Token
 
