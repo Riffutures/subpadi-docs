@@ -13,16 +13,14 @@ Get started by **Getting Your Authentication Token From**
 
 ### Step 1: Create An Account
 
-Visit **[subpadi](https://subpadi.com/signup)** to create an account
+Visit **[subpadi](https://subpadi.ng/signup)** to create an account
 
-![Signup image](/img/signup.png)
 
 
 ### Step 2: Sign In 
 
-Visit **[subpadi](https://subpadi.com/signin)** to sign in
+Visit **[subpadi](https://subpadi.ng/signin)** to sign in
 
-![Signin image](/img/signin.png)
 
 ### Step 3: Copy Your Token
 
