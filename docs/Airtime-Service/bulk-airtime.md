@@ -37,7 +37,7 @@ data = json.dumps(payload)
 ### Send a post request with the payload
 
 ```python
-url = "https://bigisub/api/bulk-airtime/"
+url = "https://bigisub.com/api/bulk-airtime/"
 res = requests.post(url, data=data, headers=headers)
 ```
 
