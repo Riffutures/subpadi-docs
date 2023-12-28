@@ -32,13 +32,13 @@ url = "https://subpadi.com/api/cablesub/"
 res = requests.post(url, data=data, headers=headers)
 ```
 
-### Response if Low Balance
+### Response 
 
 ```bash
 {
     "id": 24,
     "exam": "NECO",
-    "quantity": "ikeja-electric",
+    "quantity": 1,
     "pin": "26362054405982757802",
     "amount": 1000,
     "pay_amount": "1050.0",
