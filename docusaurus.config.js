@@ -9,9 +9,9 @@ import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Subpadi',
-  tagline: 'Best Sme Data Reselling App',
-  favicon: 'img/Subpadilogo-removebg-preview.png',
+  title: 'Rif Technotronics Subpadi',
+  tagline: '',
+  favicon: 'img/',
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-site.example.com',
@@ -64,10 +64,10 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Subpadi',
+        title: 'Rif Technotronics Subpadi',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/Subpadilogo-removebg-preview.png',
+          alt: 'rif-logo',
+          src: '/',
         },
         items: [
           {
@@ -132,7 +132,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Subpadi, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Rif Technotronics, LTD. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
