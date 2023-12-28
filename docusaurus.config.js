@@ -11,7 +11,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 const config = {
   title: 'Rif Technotronics Subpadi',
   tagline: '',
-  favicon: 'img/',
+  favicon: '/',
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-site.example.com',
