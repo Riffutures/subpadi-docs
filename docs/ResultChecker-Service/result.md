@@ -32,7 +32,7 @@ url = "https://bigisub.com/api/exam_pin_purchase/"
 res = requests.post(url, data=data, headers=headers)
 ```
 
-### Response if Low Balance
+### Response
 
 ```bash
 {
