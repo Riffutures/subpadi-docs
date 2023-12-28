@@ -9,9 +9,9 @@ import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Bigisub',
-  tagline: 'Best Sme Data Reselling App',
-  favicon: 'img/bigisub.ng.png',
+  title: 'Rif Technotronic Bigisub',
+  tagline: '',
+  favicon: '/',
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-site.example.com',
@@ -66,8 +66,8 @@ const config = {
       navbar: {
         title: 'Bigisub',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/bigisub.ng.png',
+          alt: 'logo',
+          src: '/',
         },
         items: [
           {
@@ -105,16 +105,12 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://discordapp.com/invite/riftechnotronics',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com/riftechnotronics',
               },
             ],
           },
@@ -132,7 +128,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Subpadi, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Rif Technotronics, LTD. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
