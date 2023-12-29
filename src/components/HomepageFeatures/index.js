@@ -28,7 +28,7 @@ const FeatureList = [
   },
   {
     title: 'Blog',
-    url: 'blog',
+    url: '/',
     Svg: require('@site/static/img/stack-overflow-logo-fill.svg').default,
     description: (
       <>
