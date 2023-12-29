@@ -17,7 +17,7 @@ const config = {
   url: 'https://your-docusaurus-site.example.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/bigisub-docs/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -76,7 +76,6 @@ const config = {
             position: 'left',
             label: 'API Docs',
           },
-          { to: '/blog', label: 'Blog', position: 'left' },
           {
             href: 'https://bigisub.ng/login',
             label: 'Sign in',
@@ -117,10 +116,6 @@ const config = {
           {
             title: 'More',
             items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
               // {
               //   label: 'GitHub',
               //   href: 'https://github.com/facebook/docusaurus',
