@@ -76,7 +76,7 @@ const config = {
             position: 'left',
             label: 'API Docs',
           },
-          { to: '/blog', label: 'Blog', position: 'left' },
+          // { to: '/blog', label: 'Blog', position: 'left' },
           {
             href: 'https://subpadi.com/login',
             label: 'Sign in',
@@ -117,10 +117,10 @@ const config = {
           {
             title: 'More',
             items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
+              // {
+              //   label: 'Blog',
+              //   to: '/blog',
+              // },
               // {
               //   label: 'GitHub',
               //   href: 'https://github.com/facebook/docusaurus',
