@@ -9,7 +9,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Rif Technotronic Bigisub',
+  title: 'Template 2',
   tagline: '',
   favicon: '/',
 
@@ -64,7 +64,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Bigisub',
+        title: 'Template 2',
         logo: {
           alt: 'logo',
           src: '/',
