@@ -50,7 +50,7 @@ res = requests.post(url, data=data, headers=headers)
     "id": 76,
     "airtime_type": "VTU",
     "network": 1,
-    "tran_id": "Airtime-SVKjDfker7634",
+    "tran_id": "Cable-SVKjDfker7634",
     "paid_amount": "200.0",
     "mobile_number": "08011111111",
     "amount": "200",
