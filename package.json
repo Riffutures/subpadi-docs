@@ -14,7 +14,7 @@
     "write-heading-ids": "docusaurus write-heading-ids",
     "dev": "docusaurus start",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b template_1 -d build"
+    "deploy": "gh-pages -b temp_1 -d build"
   },
   "dependencies": {
     "@docusaurus/core": "3.0.1",
