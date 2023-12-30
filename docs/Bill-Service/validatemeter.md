@@ -27,7 +27,7 @@ data = json.dumps(payload)
 ### Send a post request with the payload
 
 ```python
-url = "https://www.subpadi.com/api/validatemeter"
+url = "https://www.subpadi.com/api/validatemeter/"
 res = requests.post(url, data=data, headers=headers)
 ```
 

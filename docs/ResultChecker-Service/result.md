@@ -28,7 +28,7 @@ data = json.dumps(payload)
 ### Send a post request with the payload
 
 ```python
-url = "https://subpadi.com/api/cablesub/"
+url = "https://subpadi.com/api/epin/"
 res = requests.post(url, data=data, headers=headers)
 ```
 
@@ -39,7 +39,7 @@ res = requests.post(url, data=data, headers=headers)
     "id": 24,
     "exam": "NECO",
     "quantity": 1,
-    "pin": "26362054405982757802",
+    "pin": "[26362054405982757802]",
     "amount": 1000,
     "pay_amount": "1050.0",
     "tran_id": "EXAM2OYY--cf3b7",
